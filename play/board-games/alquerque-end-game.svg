@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+     version="1.0" width="460" height="460" viewBox="20 20 460 460">
+	<title>Alquerque Board</title>
+	<g style="fill:none;stroke:#808080;stroke-width:5;stroke-linecap:square;stroke-linejoin:miter">
+		<path d="M 450,50 50,450 M 50,50 450,450 M 250,50 50,250 250,450 450,250 z"/>
+		<path id="GridHorz" d="M 50,50 h 400 m -400,100 h 400 m -400,100 h 400 m -400,100 h 400 m -400,100 h 400"/>
+		<use xlink:href="#GridHorz" transform="matrix(0,-1,1,0,0,500)"/>
+		<circle cx="150" cy="150" r="8" style="fill:#d00000"/>
+                <circle cx="150" cy="250" r="8" style="fill:#d00000"/>
+                <circle cx="150" cy="350" r="8" style="fill:#d00000"/>
+                <circle cx="250" cy="150" r="8" style="fill:#d00000"/>
+		<circle cx="250" cy="250" r="8" style="fill:#d00000"/>
+                <circle cx="250" cy="350" r="8" style="fill:#d00000"/>
+                <circle cx="350" cy="150" r="8" style="fill:#d00000"/>
+                <circle cx="350" cy="250" r="8" style="fill:#d00000"/>
+                <circle cx="350" cy="350" r="8" style="fill:#d00000"/>
+	</g>
+</svg>

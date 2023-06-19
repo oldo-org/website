@@ -19,6 +19,7 @@ h2 {
 h3 {
  font-size: 1.1em;
 }
+
 ul {
  padding-left: 1.5em;
 }
@@ -29,6 +30,12 @@ li {
  float: right;
  margin-left: 1em;
 }
+
 img {
  border: 0;
+}
+
+table, th, td {
+  border: 1px solid silver;
+  border-collapse: collapse;
 }
