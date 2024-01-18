@@ -5,15 +5,17 @@ a {
  border: 0.15em solid lavender;
  color: darkslategray;
  background-color: seashell;
+ background-image: linear-gradient(seashell, #eee5dd);
+ background-repeat: repeat-x;
  border-radius: 2em;
  text-decoration: none;
 }
 a:hover {
  border-color: hotpink;
  color: darkred;
- background-color: lightpink;
  box-shadow: 0px 0px 5px 3px lightpink;
 }
 a:active {
  transform: scale(0.98);
 }
+
