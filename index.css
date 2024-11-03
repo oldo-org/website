@@ -3,10 +3,15 @@ a {
  padding: 1em;
  margin: 0.5em;
  border: 0.15em solid lavender;
- color: darkslategray;
- background-color: seashell;
+ color: darkslategray; 
+ background-color: seashell; 
  background-image: linear-gradient(seashell, #eee5dd);
  background-repeat: repeat-x;
+/*
+ background-image: url('tunnel.svg');
+ background-size: contain;
+ background-repeat: no-repeat;
+*/
  border-radius: 2em;
  text-decoration: none;
 }
